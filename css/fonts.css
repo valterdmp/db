@@ -35,7 +35,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-	font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+	/*font-family: "Poppins", "Helvetica", "Arial", sans-serif;*/
+	font-family: "Montserrat", sans-serif;
 }
 
 /*Main Menu*/
