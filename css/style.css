@@ -12738,6 +12738,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   font-style: normal;
   font-display: block;
 }
+@font-face { font-family: Montserrat; src: url("../webfonts/Montserrat.ttf"); } /*valter*/
+
 i:not(.fa):not(.fab):not(.far):not(.fas) {
   font-family: inspiro-icons !important;
   speak: none;
