@@ -9,7 +9,11 @@
     BODY
 -----------------------------------------------------------------*/
 html {
+  overflow: scroll;
   overflow-x: hidden;
+}
+::-webkit-scrollbar { /*Valter*/
+    width: 0;
 }
 
 body .body-inner {
@@ -3871,7 +3875,7 @@ h6,
 .h5,
 .h6 {
   font-family: "Montserrat", sans-serif; /*Valter*/
-  font-weight: 500;
+  font-weight: 500; /*Valter*/
   color: #1f1f1f;
   margin: 0;
   letter-spacing: 0.5px;
@@ -8868,6 +8872,10 @@ Helpers
   background-color: #181818 !important;
 }
 
+.background-transparent { /*Valter*/
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
 .background-black {
   background-color: #000 !important;
 }
@@ -12737,8 +12745,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   font-weight: normal;
   font-style: normal;
   font-display: block;
-/*}
-@font-face { font-family: Montserrat; src: url("../webfonts/Montserrat.ttf"); } /*valter*/
+
+}
 
 i:not(.fa):not(.fab):not(.far):not(.fas) {
   font-family: inspiro-icons !important;
