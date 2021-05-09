@@ -8379,8 +8379,6 @@ td.fc-today {
 }
 .p-dropdown a:not(.btn) {
   color: #484848;
-    cursor: default; /*valter*/
-  user-select: none; /*valter*/
 }
 .p-dropdown .btn,
 .p-dropdown .title {
