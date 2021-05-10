@@ -1639,7 +1639,7 @@ Main Menu
 #mainMenu nav > ul > li.current > span, #mainMenu nav > ul > li:hover > a,
 #mainMenu nav > ul > li:hover > span, #mainMenu nav > ul > li:focus > a,
 #mainMenu nav > ul > li:focus > span {
-  color: #2250fc;
+  color: #b5b5b5; /*Valter*/
 }
 #mainMenu nav > ul > li.dropdown:before {
   content: "\e930";
@@ -2189,7 +2189,7 @@ Overlay Menu
 #mainMenu.dark nav > ul > li:hover > span,
 #mainMenu.dark nav > ul > li:focus > a,
 #mainMenu.dark nav > ul > li:focus > span {
-  color: #e2e2e2;
+  color: #a6a6a6; /*Valter*/
 }
 .dark #mainMenu nav > ul > li.dropdown:before,
 #mainMenu.dark nav > ul > li.dropdown:before {
@@ -7434,7 +7434,7 @@ Scroll top
   top: 0;
   left: 0;
   z-index: 1;
-  background-color: #2250fc;
+  background-color: #7d7d7d; /*Valter*/
   transform: scale(0);
   transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
   border-radius: 100px;
