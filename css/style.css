@@ -1426,7 +1426,7 @@ Topbar
   margin: 0 auto;
   width: 100%;
 }
-#header.header-always-fixed .header-inner,
+#header.header-always-fixed /*.header-inner Valter*/,
 #header.header-always-fixed #header-wrap {
   position: fixed !important;
   top: 0 !important;

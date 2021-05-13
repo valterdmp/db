@@ -1,35 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt">
-
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="author" content="DEBARRO CERÂMICA">
-    <meta name="description" content="Cerâmica utilitária e decorativa produzida à mão em Portugal. Fábrica com 30 anos de experiência na produção de peças em terracota.">
+    <meta name="description" content="Cerâmica Artesanal Portuguesa">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Document title -->
-    <title>DeBarro. Cerâmica feita à mão em Portugal</title>
-    <!-- Stylesheets & Fonts -->
+    <title>DeBarro. Cerâmica Artesanal Portuguesa</title>
     <link href="css/plugins.css" rel="stylesheet preload">
     <link href="css/style.css" rel="stylesheet preload">
-    
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-');
-        gtag('config', 'UA--1');
-    </script> 
-    
+    <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-');gtag('config', 'UA-');</script> 
 </head>
-
 <body>
-    <!-- Body Inner -->
     <div class="body-inner">
-
         <header id="header" data-transparent="true" data-fullwidth="false" class="header-always-fixed dark header-logo-center" data-sticky-active="900">
             <div class="header-inner" data-animate="fadeInDownBig">
                 <div class="container">
@@ -38,7 +22,7 @@
                             <span class="logo"><img style="max-width: 150px;" src="images/logob.png"></span>
                         </a>
                     </div>
-                    <div id="mainMenu">
+                    <div id="mainMenu" class="d-none d-xl-block">
                         <div class="container">
                             <nav>
                                 <ul>
@@ -46,19 +30,19 @@
                                         <a href="https://instagr.am/debarro.pt/" target="_blank"><i class="icon-instagram"></i></a>
                                     </li>
                                     <li>
-                                        <a href="/en"><i class="icon-globe"></i><sup>EN</sup></a>
+                                        <a href="en"><i class="icon-globe"></i><sup>EN</sup></a>
                                     </li>                      
                                 </ul>
                             </nav>
                         </div>
                     </div>
-                    <div class="header-extras d-lg-none">
+                    <div class="header-extras d-xl-none">
                         <ul>
                             <li>
                                 <a href="https://instagr.am/debarro.pt/" target="_blank"><i class="icon-instagram"></i></a>
                             </li>
                             <li>
-                                <a href="/en"><i class="icon-globe"></i><sup class="text-light"> EN</sup></a>
+                                <a href="en"><i class="icon-globe"></i><sup class="text-light"> EN</sup></a>
                             </li>                      
                         </ul>
                     </div>
@@ -66,8 +50,83 @@
             </div>
         </header>
         
+        <section class="fullscreen d-block d-md-none" data-bg-image="images/home.jpg">
+            <div class="bg-overlay"></div>
+            <div class="container-fullwidth">
+                <div class="row justify-content-center p-60">
+                    <div class="col-md-12">
+                        <div class="heading-text text-light text-center">
+                            <h2 class="font-weight-800 p-t-120"><span>Cerâmica Artesanal Portuguesa</span></h2>
+                            <div class="p-t-50">
+                                <a href="sobre" class="btn btn-light btn-outline">Sobre</a>
+                                <a href="produtos" class="btn btn-light btn-outline">Produtos</a>
+                                <a href="contactos" class="btn btn-light btn-outline">Contactos</a>
+                                <a href="#" class="btn btn-light btn-outline">Loja<span class="badge badge-danger">Brevemente</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="fullscreen d-none d-md-block" data-bg-video="videos/intro.mp4">
+            <div class="bg-overlay"></div>
+            <div class="container-fullwidth">
+                <div class="row justify-content-center p-60">
+                    <div class="col-md-12">
+                        <div class="heading-text text-light text-center">
+                            <h2 class="font-weight-800 p-t-120"><span>Cerâmica Artesanal Portuguesa</span></h2>
+                            <div class="p-t-50">
+                                <a href="sobre" class="btn btn-light btn-outline">Sobre</a>
+                                <a href="produtos" class="btn btn-light btn-outline">Produtos</a>
+                                <a href="contactos" class="btn btn-light btn-outline">Contactos</a>
+                                <a href="#" class="btn btn-light btn-outline">Loja<span class="badge badge-danger">Brevemente</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+      <!--  <div id="slider" class="inspiro-slider slider-fullscreen">
+            <div class="slide" data-bg-video="videos/intro.mp4">
+                <div class="bg-overlay"></div>
+                <div class="container-fullwidth">
+                    <div class="container">
+                    <div class="slide-captions text-center text-light">
+                        <h2 class="p-t-100">Cerâmica Artesanal Portuguesa</h2>
+                        <div class="p-t-50"><a href="sobre" class="btn btn-light btn-outline">Sobre</a>
+                            <a href="produtos" class="btn btn-light btn-outline">Produtos</a>
+                            <a href="contactos" class="btn btn-light btn-outline">Contactos</a></div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        
+        <div id="slider" class="inspiro-slider slider-fullscreen">
+            <video autoplay muted loop id="myVideo">
+                <source src="videos/intro.mp4" type="video/mp4">
+            </video>
+            <div class="bg-overlay"></div>
+            <div class="container-fullwidth">
+                    <div class="row">
+                        <div class="container">
+                            <div class="heading-text text-light text-center">
+                                <h4 class="p-100" data-animate="fadeInDown">Cerâmica Artesanal Portuguesa</h4>
+                                <a href="sobre" class="btn btn-light btn-outline">Sobre</a>
+                                <a href="produtos" class="btn btn-light btn-outline">Produtos</a>
+                                <a href="contactos" class="btn btn-light btn-outline">Contactos</a>
+                            </div>
+                        </div>
+                    </div>              
+                </div>
+        </div>
+        
         <div id="slider" class="inspiro-slider slider-fullscreen d-none d-md-block">
-            <div class="slide" data-bg-video="videos/intro360.mp4">
+            <div class="slide" data-bg-video="videos/intro.mp4">
                 <div class="bg-overlay"></div>
                 <div class="container-fullwidth">
                     <div class="row">
@@ -83,7 +142,6 @@
                 </div>
             </div>
         </div>
-        
         <div id="slider" class="inspiro-slider slider-fullscreen d-block d-md-none">
             <div class="slide" data-bg-video="videos/intro360.mp4">
                 <div class="bg-overlay"></div>
@@ -100,90 +158,28 @@
                     </div>              
                 </div>
             </div>
-        </div>
-        
-        
-         <!--<div id="slider" class="inspiro-slider slider-fullscreen" data-fade="true">
-
-<div class="slide" data-bg-image="images/intro.png">
-<div class="bg-overlay"></div>
-<div class="container">
-<div class="slide-captions text-center text-light">
-
-<h1>WELCOME TO THE WORLD OF POLO</h1>
-<p>Say hello to the smartest and most flexible bootstrap template. Polo is an powerful template that can build any type of websites, and quite possibly the only one you will ever need.</p>
-<div><a href="#welcome" class="btn scroll-to">Explore more</a></div>
-
-</div>
-</div>
-</div>
-
-
-<div class="slide" data-bg-video="videos/intro.mp4">
-<div class="bg-overlay"></div>
-<div class="container">
-<div class="slide-captions text-center text-light">
-
-<h1>WELCOME TO THE WORLD OF POLO</h1>
-<p>Say hello to the smartest and most flexible bootstrap template. Polo is an powerful template that can build any type of websites, and quite possibly the only one you will ever need.</p>
-<div><a href="#welcome" class="btn scroll-to">Explore more</a></div>
-
-</div>
-</div>
-</div>
-
-</div>
-
-   
-        
-        
-        <section class="fullscreen" data-bg-video="videos/intro360.mp4">
-            <div class="bg-overlay"></div>
-            <div class="container-fullwidth">
-                <div class="row">
-                    <div class="heading-text text-light text-center">
-                        
-                        <h4 class="row p-100" data-animate="fadeInDown">Cerâmica Artesanal Portuguesa</h4>
-                        <button type="button" class="btn btn-light btn-outline"><span class="btn-label"></span><a href="sobre">Sobre</a></button>
-                        <button href="produtos" type="button" class="btn btn-light btn-outline"><span class="btn-label"></span><a href="produtos">Produtos</a></button>
-                        <button href="contactos" type="button" class="btn btn-light btn-outline"><span class="btn-label"></span><a href="contactos">Contactos</a></button>
-                    </div>
-                </div>
-            </div>
-        </section>  -->
-  
-        <!--Modal Cookie-->
+        </div> -->
         <div id="cookieNotify" class="modal-strip cookie-notify background-transparent" data-delay="3000" data-expire="1" data-cookie-name="cookiebar2020_1" data-cookie-enabled="true">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 text-sm-center text-md-left sm-m-b-10 m-t-5 d-none d-md-block">Este website utiliza cookies. <a href="politicas" class="text-light">Mais informações</a>. <i class="icon-info"></i></div>
-                    <div class="col-lg-8 text-sm-center text-md-left sm-m-b-10 m-t-5 d-block d-md-none">Este website utiliza cookies. <br><a href="politicas" class="text-light">Mais informações</a>. <i class="icon-info"></i></div>
+                    <div class="col-lg-8 text-sm-center text-md-left sm-m-b-10 m-t-5">Este website utiliza cookies. <br class="d-block d-md-none"><a href="politicas" class="text-light">Mais informações</a>. <i class="icon-info"></i></div>
                     <div class="col-lg-4 text-right sm-text-center sm-center">
                         <button type="button" class="btn btn-light btn-outline btn-sm m-r-10 modal-confirm">Concordo</button>
                     </div>
                 </div>
             </div>
         </div>
-        <!--End: Modal Cookie-->
-        <!-- Footer -->
         <footer id="footer">
             <div class="copyright-content">
                 <div class="container">
-                    <div class="copyright-text text-center d-none d-md-block dark">Copyright <script>document.write(new Date().getFullYear())</script> &copy; DeBarro - Cerâmica, Lda. Todos os direitos reservados.</div>
-                    <div class="copyright-text text-center d-block d-md-none">Copyright <script>document.write(new Date().getFullYear())</script> &copy; DeBarro - Cerâmica, Lda.<br>Todos os direitos reservados.</div>
+                    <div class="copyright-text text-center">Copyright <script>document.write(new Date().getFullYear())</script> &copy; DeBarro - Cerâmica, Lda. <br class="d-block d-md-none">Todos os direitos reservados.</div>
                 </div>
             </div>
         </footer>
-        <!-- end: Footer -->
     </div>
-    <!-- end: Body Inner -->
-    <!-- Scroll top -->
     <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
-    <!--Plugins-->
     <script src="js/jquery.js"></script>
     <script src="js/plugins.js"></script>
-    <!--Template functions-->
     <script src="js/functions.js"></script>
 </body>
-
 </html>
