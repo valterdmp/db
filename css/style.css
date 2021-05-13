@@ -4354,6 +4354,9 @@ h6.font-parisienne {
   .inspiro-slider .slide .slide-captions h6 {
     color: #ffffff;
   }
+  .fullscreen {
+  min-height: calc(100vh + 80px) !important; /*VALTER*/
+  }
 }
 .fullscreen {
   width: 100%;
@@ -4365,7 +4368,7 @@ h6.font-parisienne {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  min-height: 100vh;
+  min-height: 100vh; /*VALTER*/
 }
 .fullscreen .container,
 .fullscreen .container-wide {
