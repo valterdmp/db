@@ -2748,7 +2748,7 @@ Main Menu: Responsive
 }
 .header-extras > ul > li > a:not(.btn),
 .header-extras > ul > li > .p-dropdown {
-  padding-left: 16px; /*valter*/
+  padding-left: 6px; 
   padding-right: 6px; 
 }
 .header-extras > ul > li .p-dropdown a > span {
