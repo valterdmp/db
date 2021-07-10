@@ -12,8 +12,8 @@ html {
   overflow: scroll;
   overflow-x: hidden;
 }
-::-webkit-scrollbar { /*Valter*/
-    width: 0;
+/*::-webkit-scrollbar { /*Valter
+    width: 0;*/
 }
 
 body .body-inner {
