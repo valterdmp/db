@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*  Mixins */
 /*  Fonts */
 /* --------------------------------------------------------------- 
@@ -3881,8 +3881,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Montserrat", sans-serif; /*Valter*/
-  font-weight: 500; /*Valter*/
+  font-family: "Poppins", sans-serif;
   color: #1f1f1f;
   margin: 0;
   letter-spacing: 0.5px;
