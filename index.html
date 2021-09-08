@@ -29,7 +29,8 @@
 <body>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7J9L3J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="body-inner">
-        <header id="header" data-transparent="true" data-fullwidth="false" class="header-always-fixed dark header-logo-center" data-sticky-active="900">
+        <header id="header" data-transparent="true" data-fullwidth="false" class="dark header-logo-center" data-sticky-active="900">
+        <!--header id="header" data-transparent="true" data-fullwidth="false" class="header-always-fixed dark header-logo-center" data-sticky-active="900"-->
             <div class="header-inner" data-animate="fadeInDownBig">
                 <div class="container">
                     <div id="logo">
@@ -64,50 +65,24 @@
                 </div>
             </div>
         </header>
-        <section class="fullscreen text-center d-block d-md-none" data-bg-image="images/home5.webp">
-            <div class="bg-overlay"></div>
-            <div class="container container-fullscreen">
-                <div class="row p-60">
-                    <div class="col-md-12">
-                        <div class="heading-text text-light text-center">
-                            <h2 class="p-t-120"><span>Cerâmica Artesanal Portuguesa</span></h2>
-                            <h4><span>Todas as nossas peças são únicas e feitas à mão</span></h4>
-                            <div class="p-t-50">
-                                <a href="loja" class="btn btn-light btn-outline" tag="Loja">Loja</a>
-                                <a href="sobre" class="btn btn-light btn-outline" tag="Sobre">Sobre</a>
-                                <a href="contactos" class="btn btn-light btn-outline" tag="Contactos">Contactos</a>
-                                <!--a href="#loja" data-lightbox="inline" class="btn btn-light btn-outline" tag="Loja">Loja<span class="badge badge-danger">Brevemente</span></a-->
+        <div id="slider" class="inspiro-slider slider-fullscreen">
+            <div class="slide" data-bg-video="videos/home.mp4">
+                <div class="bg-overlay"></div>
+                    <div class="container-fullwidth">
+                        <div class="row justify-content-center p-60">
+                            <div class="heading-text text-light text-center slide-captions">
+                                <h2 class="p-t-120"><span>Cerâmica Artesanal Portuguesa</span></h2>
+                                <h4><span>Todas as nossas peças são únicas e feitas à mão</span></h4>
+                                <div class="p-t-50">
+                                    <a href="loja" class="btn btn-light btn-outline" tag="Loja">Loja</a>
+                                    <a href="sobre" class="btn btn-light btn-outline" tag="Sobre">Sobre</a>
+                                    <a href="contactos" class="btn btn-light btn-outline" tag="Contactos">Contactos</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
                 </div>
-            </div>
-        </section>
-        <section class="fullscreen d-none d-md-block" data-bg-video="videos/home.mp4">
-            <div class="bg-overlay"></div>
-            <div class="container-fullwidth">
-                <div class="row justify-content-center p-60">
-                    <div class="col-md-12">
-                        <div class="heading-text text-light text-center">
-                            <h2 class="p-t-120"><span>Cerâmica Artesanal Portuguesa</span></h2>
-                            <h4><span>Todas as nossas peças são únicas e feitas à mão</span></h4>
-                            <div class="p-t-50">
-                                <a href="loja" class="btn btn-light btn-outline" tag="Loja">Loja</a>
-                                <a href="sobre" class="btn btn-light btn-outline" tag="Sobre">Sobre</a>
-                                <a href="contactos" class="btn btn-light btn-outline" tag="Contactos">Contactos</a>
-                                <!--a href="#loja" data-lightbox="inline" class="btn btn-light btn-outline" tag="Loja">Loja<span class="badge badge-danger">Brevemente</span></a-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div id="loja" class="modal text-center">
-            <h2 class="modal-title">A loja online ainda não foi lançada</h2>
-            <p class="text-dark">Os nossos produtos podem ser comprados através do Instagram, WhatsApp ou E-mail.</p>
-            <a class="btn btn-light" href="produtos" tag="Ver Produtos">Ver Produtos</a>
-            <a class="btn btn-light" href="contactos" tag="Ver Contactos">Ver Contactos</a>
-        </div>  
+            </div>       
+        </div>
         <div id="cookieNotify" class="modal-strip cookie-notify background-transparent" data-delay="3000" data-expire="1" data-cookie-name="cookiebar2020_1" data-cookie-enabled="true">
             <div class="container">
                 <div class="row">
@@ -117,43 +92,41 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>        
+            
         <footer id="footer">
             <div class="footer-content">
-<div class="container">
-<div class="row">
-<div class="col-lg-8"> 
-<div class="row">
-<div class="col-lg-3">
-<div class="widget">
-<div class="widget-title"><a href="termosecondicoes">Termos e Condições</a></div>
-</div>
-</div>
-<div class="col-lg-3">
-<div class="widget">
-    <div class="widget-title"><a href="politicas">Políticas e Cookies</a></div>
-</div>
-</div>
-<div class="col-lg-3">
-<div class="widget">
-<div class="widget-title"><a href="devolucoes">Trocas e devoluções</a></div>
-</div>
-</div>
-<div class="col-lg-3">
-<div class="widget">
-<div class="widget-title"><a href="contactos">Contacto</a></div>
-</div>
-</div>
-</div>
-</div>
-    <div class="col-lg-4">
-<div class="widget">
-<div class="widget-title"><a>Cerâmica DeBarro</a></div>
-</div>
-</div>
-</div>
-</div>
-</div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-lg-2 col-md-3">
+                            <div class="widget  widget-contact-us">
+                                <ul class="list-icon">
+                                    <li><i class="fa fa-map-marker-alt"></i>Rua Conde Dom Henrique, 1 <br>
+                                        Braga, Portugal</li>
+                                    <li><i class="far fa-envelope"></i> <a href="mailto:info@debarro.pt">info@debarro.pt</a> </li>
+                                    <li>
+                                        <i class="far fa-clock"></i>Segunda a Sexta: 10:00 - 17:00</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="row text-center">
+                        <div class="col-lg-3 col-md-3 ">
+                            <a href="#">TERMOS & CONDIÇÕES</a>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3">
+                            <a href="#">POLÍTICAS & COOKIES</a>
+                        </div>
+    
+                        <div class="col-lg-3 col-md-3">
+                            <a href="#">TROCAS & DEVOLUÇÕES</a>
+                        </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>           
             
             <div class="copyright-content">
                 <div class="container">
