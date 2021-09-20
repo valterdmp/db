@@ -89,7 +89,7 @@ a.btn:not([href]):not([tabindex]),
 
 /*slider*/
 .inspiro-slider .slide .slide-captions .strong {
-	font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+	font-family: "Montserrat", sans-serif !important;
 }
 
 /*Page Title*/
