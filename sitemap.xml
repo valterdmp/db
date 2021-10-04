@@ -2,109 +2,109 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.moldiroda.pt/</loc>
+    <loc>https://www.debarro.pt/</loc>
     <xhtml:link
                rel="alternate"
                hreflang="pt-PT"
-               href="https://www.moldiroda.pt/"/>
+               href="https://www.debarro.pt/"/>
     <xhtml:link
                rel="alternate"
                hreflang="en-EN"
-               href="https://www.moldiroda.pt/en/"/>
+               href="https://www.debarro.pt/en/"/>
     <lastmod>2021-01-13T15:20:17+00:00</lastmod>
     <priority>1.00</priority>  
   </url>
   <url>
-    <loc>https://www.moldiroda.pt/en/</loc>
+    <loc>https://www.debarro.pt/en/</loc>
       <xhtml:link
                rel="alternate"
                hreflang="pt-PT"
-               href="https://www.moldiroda.pt/"/>
+               href="https://www.debarro.pt/"/>
     <xhtml:link
                rel="alternate"
                hreflang="en-EN"
-               href="https://www.moldiroda.pt/en/"/>      
+               href="https://www.debarro.pt/en/"/>      
     <lastmod>2021-01-13T15:20:17+00:00</lastmod>
     <priority>1.00</priority>      
   </url>
   
   <url>
-    <loc>https://www.moldiroda.pt/sobre/</loc>
+    <loc>https://www.debarro.pt/sobre/</loc>
     <xhtml:link
                rel="alternate"
                hreflang="pt-PT"
-               href="https://www.moldiroda.pt/sobre/"/>
+               href="https://www.debarro.pt/sobre/"/>
     <xhtml:link
                rel="alternate"
                hreflang="en-EN"
-               href="https://www.moldiroda.pt/en/about/"/>
+               href="https://www.debarro.pt/en/about/"/>
     <lastmod>2021-01-13T15:20:17+00:00</lastmod>
     <priority>0.80</priority>  
   </url>
   <url>
-    <loc>https://www.moldiroda.pt/en/about/</loc>
+    <loc>https://www.debarro.pt/en/about/</loc>
       <xhtml:link
                rel="alternate"
                hreflang="pt-PT"
-               href="https://www.moldiroda.pt/sobre/"/>
+               href="https://www.debarro.pt/sobre/"/>
     <xhtml:link
                rel="alternate"
                hreflang="en-EN"
-               href="https://www.moldiroda.pt/en/about/"/>      
+               href="https://www.debarro.pt/en/about/"/>      
     <lastmod>2021-01-13T15:20:17+00:00</lastmod>
     <priority>0.80</priority>      
   </url>
     
   <url>
-    <loc>https://www.moldiroda.pt/produtos/</loc>
+    <loc>https://www.debarro.pt/produtos/</loc>
     <xhtml:link
                rel="alternate"
                hreflang="pt-PT"
-               href="https://www.moldiroda.pt/produtos/"/>
+               href="https://www.debarro.pt/loja/"/>
     <xhtml:link
                rel="alternate"
                hreflang="en-EN"
-               href="https://www.moldiroda.pt/en/products/"/>      
+               href="https://www.debarro.pt/en/store/"/>      
     <lastmod>2021-01-13T15:20:17+00:00</lastmod>
     <priority>0.80</priority>  
   </url>
   <url>
-    <loc>https://www.moldiroda.pt/en/products/</loc>
+    <loc>https://www.debarro.pt/en/store/</loc>
       <xhtml:link
                rel="alternate"
                hreflang="pt-PT"
-               href="https://www.moldiroda.pt/produtos/"/>
+               href="https://www.debarro.pt/loja/"/>
     <xhtml:link
                rel="alternate"
                hreflang="en-EN"
-               href="https://www.moldiroda.pt/en/products/"/>
+               href="https://www.debarro.pt/en/store/"/>
       <lastmod>2021-01-13T15:20:17+00:00</lastmod>
     <priority>0.80</priority>      
   </url>
     
   <url>
-    <loc>https://www.moldiroda.pt/contactos/</loc>
+    <loc>https://www.debarro.pt/contactos/</loc>
     <xhtml:link
                rel="alternate"
                hreflang="pt-PT"
-               href="https://www.moldiroda.pt/contactos/"/>
+               href="https://www.debarro.pt/contactos/"/>
     <xhtml:link
                rel="alternate"
                hreflang="en-EN"
-               href="https://www.moldiroda.pt/en/contacts/"/>      
+               href="https://www.debarro.pt/en/contacts/"/>      
     <lastmod>2021-01-13T15:20:17+00:00</lastmod>
     <priority>0.80</priority>  
   </url>
   <url>
-    <loc>https://www.moldiroda.pt/en/contacts/</loc>
+    <loc>https://www.debarro.pt/en/contacts/</loc>
       <xhtml:link
                rel="alternate"
                hreflang="pt-PT"
-               href="https://www.moldiroda.pt/contactos/"/>
+               href="https://www.debarro.pt/contactos/"/>
     <xhtml:link
                rel="alternate"
                hreflang="en-EN"
-               href="https://www.moldiroda.pt/en/contacts/"/>      
+               href="https://www.debarro.pt/en/contacts/"/>      
     <lastmod>2021-01-13T15:20:17+00:00</lastmod>
     <priority>0.80</priority>      
   </url>
