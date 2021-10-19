@@ -4025,7 +4025,7 @@ del {
 a:not(.btn):not(.badge):hover, a:not(.btn):not(.badge):focus, a:not(.btn):not(.badge):active {
   text-decoration: none;
   outline: none;
-  color: #2250fc;
+  color: #b24d3a; /*VP*/
 }
 a:not(.btn):not(.badge):not(.btn):not([href]):not([tabindex]) {
   color: #484848;
@@ -11155,8 +11155,8 @@ a.btn:not([href]):not([tabindex]) {
   padding: 12px 18px;
   position: relative;
   text-transform: uppercase;
-  background-color: #2250fc;
-  border-color: #2250fc;
+  background-color: #b24d3a; /*vp*/ 
+  border-color: #b24d3a; /*vp*/
   border-width: 1px;
   border-style: solid;
   color: #ffffff;
@@ -11215,8 +11215,8 @@ a.btn:not([href]):not([tabindex]):hover,
 a.btn:not([href]):not([tabindex]):focus,
 a.btn:not([href]):not([tabindex]):not(:disabled):not(.disabled):active,
 a.btn:not([href]):not([tabindex]):not(:disabled):not(.disabled).active {
-  background-color: #0333e8;
-  border-color: #0333e8;
+  background-color: #b24d3a; /*vp*/
+  border-color: #b24d3a; /*vp*/
   color: #ffffff;
   text-decoration: none;
 }
