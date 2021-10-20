@@ -1,190 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://www.debarro.pt/</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="pt-PT"
-               href="https://www.debarro.pt/"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="en-EN"
-               href="https://www.debarro.pt/en/"/>
-    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
-    <priority>1.00</priority>  
-  </url>
-  <url>
-    <loc>https://www.debarro.pt/en/</loc>
-      <xhtml:link
-               rel="alternate"
-               hreflang="pt-PT"
-               href="https://www.debarro.pt/"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="en-EN"
-               href="https://www.debarro.pt/en/"/>      
-    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
-    <priority>1.00</priority>      
-  </url>
-  
-  <url>
-    <loc>https://www.debarro.pt/sobre/</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="pt-PT"
-               href="https://www.debarro.pt/sobre/"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="en-EN"
-               href="https://www.debarro.pt/en/about/"/>
-    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
-    <priority>0.80</priority>  
-  </url>
-  <url>
-    <loc>https://www.debarro.pt/en/about/</loc>
-      <xhtml:link
-               rel="alternate"
-               hreflang="pt-PT"
-               href="https://www.debarro.pt/sobre/"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="en-EN"
-               href="https://www.debarro.pt/en/about/"/>      
-    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
-    <priority>0.80</priority>      
-  </url>
-    
-  <url>
-    <loc>https://www.debarro.pt/loja/</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="pt-PT"
-               href="https://www.debarro.pt/loja/"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="en-EN"
-               href="https://www.debarro.pt/en/store/"/>      
-    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
-    <priority>0.80</priority>  
-  </url>
-  <url>
-    <loc>https://www.debarro.pt/en/store/</loc>
-      <xhtml:link
-               rel="alternate"
-               hreflang="pt-PT"
-               href="https://www.debarro.pt/loja/"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="en-EN"
-               href="https://www.debarro.pt/en/store/"/>
-      <lastmod>2021-01-13T15:20:17+00:00</lastmod>
-    <priority>0.80</priority>      
-  </url>
-    
-  <url>
-    <loc>https://www.debarro.pt/loja/baleal</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="pt-PT"
-               href="https://www.debarro.pt/loja/baleal"/>
-    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
-    <priority>0.70</priority>  
-  </url>
-  <url>
-    <loc>https://www.debarro.pt/loja/barreta</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="pt-PT"
-               href="https://www.debarro.pt/loja/barreta/"/>   
-    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
-    <priority>0.70</priority>  
-  </url>
-  <url>
-    <loc>https://www.debarro.pt/loja/ermal</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="pt-PT"
-               href="https://www.debarro.pt/loja/ermal"/>
-    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
-    <priority>0.70</priority>  
-  </url>
-  <url>
-    <loc>https://www.debarro.pt/loja/insua</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="pt-PT"
-               href="https://www.debarro.pt/loja/insua"/>      
-    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
-    <priority>0.70</priority>  
-  </url>
-  <url>
-    <loc>https://www.debarro.pt/loja/farol</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="pt-PT"
-               href="https://www.debarro.pt/loja/farol"/>      
-    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
-    <priority>0.70</priority>  
-  </url>
-  <url>
-    <loc>https://www.debarro.pt/loja/cartaooferta</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="pt-PT"
-               href="https://www.debarro.pt/loja/cartaooferta"/>      
-    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
-    <priority>0.70</priority>  
-  </url>
-    
-  <url>
-    <loc>https://www.debarro.pt/contactos/</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="pt-PT"
-               href="https://www.debarro.pt/contactos/"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="en-EN"
-               href="https://www.debarro.pt/en/contacts/"/>      
-    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
-    <priority>0.80</priority>  
-  </url>
-  <url>
-    <loc>https://www.debarro.pt/en/contacts/</loc>
-      <xhtml:link
-               rel="alternate"
-               hreflang="pt-PT"
-               href="https://www.debarro.pt/contactos/"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="en-EN"
-               href="https://www.debarro.pt/en/contacts/"/>      
-    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
-    <priority>0.80</priority>      
-  </url>
-    
-  <url>
-    <loc>https://www.debarro.pt/profissionais/</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="pt-PT"
-               href="https://www.debarro.pt/profissionais/"/>
-    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
-    <priority>0.80</priority>  
-  </url>
-  <url>
-    <loc>https://www.debarro.pt/en/contacts/</loc>
-      <xhtml:link
-               rel="alternate"
-               hreflang="pt-PT"
-               href="https://www.debarro.pt/contactos/"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="en-EN"
-               href="https://www.debarro.pt/en/contacts/"/>      
-    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
-    <priority>0.80</priority>      
-  </url>
-    
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://www.debarro.pt/</loc>
+  <lastmod>2021-10-20T01:31:42+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.debarro.pt/loja</loc>
+  <lastmod>2021-10-20T01:31:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.debarro.pt/sobre</loc>
+  <lastmod>2021-10-20T01:31:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.debarro.pt/contactos</loc>
+  <lastmod>2021-10-20T01:31:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.debarro.pt/en/</loc>
+  <lastmod>2021-10-20T01:31:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.debarro.pt/profissionais</loc>
+  <lastmod>2021-10-20T01:31:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.debarro.pt/en/store</loc>
+  <lastmod>2021-10-20T01:31:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.debarro.pt/loja/ermal</loc>
+  <lastmod>2021-10-20T01:31:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.debarro.pt/loja/farol</loc>
+  <lastmod>2021-10-20T01:31:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.debarro.pt/loja/baleal</loc>
+  <lastmod>2021-10-20T01:31:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.debarro.pt/loja/barreta</loc>
+  <lastmod>2021-10-20T01:31:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.debarro.pt/loja/insua</loc>
+  <lastmod>2021-10-20T01:31:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.debarro.pt/loja/cartaooferta</loc>
+  <lastmod>2021-10-20T01:31:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.debarro.pt/en/about</loc>
+  <lastmod>2021-10-20T01:31:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.debarro.pt/en/contacts</loc>
+  <lastmod>2021-10-20T01:31:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.debarro.pt/en/professionals</loc>
+  <lastmod>2021-10-20T01:31:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.debarro.pt/en/store/ermal</loc>
+  <lastmod>2021-10-20T01:31:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.debarro.pt/en/store/farol</loc>
+  <lastmod>2021-10-20T01:31:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.debarro.pt/en/store/baleal</loc>
+  <lastmod>2021-10-20T01:31:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.debarro.pt/en/store/barreta</loc>
+  <lastmod>2021-10-20T01:31:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.debarro.pt/en/store/insua</loc>
+  <lastmod>2021-10-20T01:31:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.debarro.pt/en/store/giftcard</loc>
+  <lastmod>2021-10-20T01:31:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
 </urlset>
