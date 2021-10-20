@@ -9,6 +9,7 @@
     <title>DeBarro. Portuguese Handmade Ceramics</title>
     <link href="../css/plugins.css" rel="stylesheet preload">
     <link href="../css/style.css" rel="stylesheet preload">
+    <link href="../css/fonts.css" rel="stylesheet preload">
     
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-188630870-1"></script>
     <script>
@@ -24,111 +25,383 @@
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-T7J9L3J');</script>
-
+    
 </head>
 <body>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7J9L3J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="body-inner">
-        <header id="header" data-transparent="true" data-fullwidth="false" class="header-always-fixed dark header-logo-center" data-sticky-active="900">
+        <header id="header" data-transparent="true" data-fullwidth="false" data-responsive-fixed="true" data-sticky-active="400" class="dark submenu-light">
             <div class="header-inner" data-animate="fadeInDownBig">
                 <div class="container">
                     <div id="logo">
-                        <a href="/en">
-                            <span class="logo"><img style="max-width: 150px;" src="../images/logob.png" tag="Home"></span>
+                        <a href="/">
+                            <span class="logo-default"><img style="max-width: 130px;" src="../images/logop.png" tag="Home"></span>
+                            <span class="logo-dark"><img style="max-width: 130px;" src="../images/logob.png" tag="Home"></span>
                         </a>
                     </div>
-                    <div id="mainMenu" class="d-none d-xl-block">
+                    <div id="mainMenu-trigger">
+                        <a class="lines-button x" tag="menu-open"><span class="lines" tag="menu-close"></span></a>
+                    </div>
+                    <div id="mainMenu">
                         <div class="container">
                             <nav>
                                 <ul>
-                                    <li>
-                                        <a href="https://instagr.am/debarro.pt/" target="_blank"><i class="icon-instagram" tag="Instagram"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="/" tag="Português"><i class="icon-globe" tag="Português"></i><sup tag="Português">PT</sup></a>
-                                    </li>                      
+                                    <li><a href="/en/store" tag="Loja">Store</a></li>
+                                    <li><a href="/en/about" tag="Sobre">About</a></li>
+                                    <li><a href="/en/contacts" tag="Contactos">Contacts</a></li>
+                                    <li><a href="https://instagr.am/debarro.pt/" target="_blank" tag="Instagram"><i class="icon-instagram"></i></a></li>
+                                    <li><a href="/" tag="Português"><i class="icon-globe" tag="Português"></i><sup tag="Português">PT</sup></a></li>
+
                                 </ul>
                             </nav>
                         </div>
                     </div>
-                    <div class="header-extras d-xl-none">
-                        <ul>
-                            <li>
-                                <a href="https://instagr.am/debarro.pt/" target="_blank"><i class="icon-instagram" tag="Instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href="/" tag="Português"><i class="icon-globe" tag="Português"></i><sup class="text-light" tag="Português"> PT</sup></a>
-                            </li>                      
-                        </ul>
-                    </div>
                 </div>
             </div>
         </header>
-        <section class="fullscreen text-center d-block d-md-none" data-bg-image="../images/home5.webp">
-            <div class="bg-overlay"></div>
-            <div class="container container-fullscreen">
-                <div class="row p-60">
-                    <div class="col-md-12">
-                        <div class="heading-text text-light text-center">
-                            <h2 class="p-t-120"><span>Portuguese Handmade Ceramics</span></h2>
-                            <h4><span>All our products are unique and handcrafted</span></h4>
-                            <div class="p-t-50">
-                                <a href="store" class="btn btn-light btn-outline" tag="Loja">Store</a>
-                                <a href="about" class="btn btn-light btn-outline" tag="Sobre">About</a>
-                                <a href="contacts" class="btn btn-light btn-outline" tag="Contactos">Contacts</a>
-                                <!--a href="#store" data-lightbox="inline" class="btn btn-light btn-outline" tag="Loja">Store<span class="badge badge-danger">Soon</span></a-->
-                            </div>
+        <div id="slider" class="inspiro-slider slider-fullscreen">
+            <div class="slide" data-bg-video="../videos/home.mp4">
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="slide-captions text-center p-t-50">
+                        <h2 style="font-weight: 300">Portuguese Handmade Ceramics</h2>
+                        <h3 style="font-weight: 300">All our products are unique and handcrafted</h3>
+                        <div class="p-t-70">
+                            <a href="loja" class="btn btn-light btn-rounded btn-outline" tag="Comprar">See Products</a>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="fullscreen d-none d-md-block" data-bg-video="../videos/home.mp4">
-            <div class="bg-overlay"></div>
-            <div class="container-fullwidth">
-                <div class="row justify-content-center p-60">
-                    <div class="col-md-12">
-                        <div class="heading-text text-light text-center">
-                            <h2 class="p-t-120"><span>Portuguese Handmade Ceramics</span></h2>
-                            <h4><span>All our products are unique and handcrafted</span></h4>
-                            <div class="p-t-50">
-                                <a href="store" class="btn btn-light btn-outline" tag="Loja">Store</a>
-                                <a href="about" class="btn btn-light btn-outline" tag="Sobre">About</a>
-                                <a href="contacts" class="btn btn-light btn-outline" tag="Contactos">Contacts</a>
-                                <!--a href="#store" data-lightbox="inline" class="btn btn-light btn-outline" tag="Loja">Store<span class="badge badge-danger">Soon</span></a-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div id="store" class="modal text-center">
-            <h2 class="modal-title">Our webstore was not released yet.</h2>
-            <p class="text-dark">You can buy our products via Instragram or E-mail.</p>
-            <!--a class="btn btn-light" href="produtos" tag="Ver Produtos">Ver Produtos</a>
-            <a class="btn btn-light" href="contactos" tag="Ver Contactos">Ver Contactos</a-->
-        </div>  
-        <div id="cookieNotify" class="modal-strip cookie-notify background-transparent" data-delay="3000" data-expire="1" data-cookie-name="cookiebar2020_1" data-cookie-enabled="true">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 text-sm-center text-md-left sm-m-b-10 m-t-5">This website uses cookies. <br class="d-block d-md-none"><a href="/politicas" class="text-light" tag="Mais informações">More info</a>. <i class="icon-info"></i></div>
-                    <div class="col-lg-4 text-right sm-text-center sm-center">
-                        <button type="button" class="btn btn-light btn-outline btn-sm m-r-10 modal-confirm" tag="Concordo">Agree</button>
                     </div>
                 </div>
             </div>
         </div>
+        <section id="page-content">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-6 col-sm-5">
+                        <h3>All our pieces start with a simple roll of clay</h3>
+                        <img src="../images/home1.jpg" class="img-fluid rounded">
+                    </div>
+                    <div class="col-6 col-sm-5">
+                        <h3>The wheel and the ceramist bring the pieces to life</h3>
+                        <img src="../images/home2.jpg" class="img-fluid rounded">
+                    </div>
+                    <hr class="space">
+                    <div class="col-6 col-sm-5">
+                        <h3>They dry in the sun and are burnt in the oven at over 1000ºC</h3>
+                        <img src="../images/home3.jpg" class="img-fluid rounded">
+                    </div>
+                    <div class="col-6 col-sm-5">
+                        <h3>Finally, are painted and packed by hand</h3>
+                        <img src="../images/home4.png" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="space">
+        
+        <div id="cookieNotify" class="modal-strip cookie-notify background-transparent" data-delay="3000" data-expire="1" data-cookie-name="cookiebar2020_1" data-cookie-enabled="true">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 text-sm-center text-md-left sm-m-b-10 m-t-5">This website uses cookies. <br class="d-block d-md-none"><a href="/en/politics" class="text-light" tag="Mais informações">More info</a>. <i class="icon-info"></i></div>
+                    <div class="col-lg-4 text-right sm-text-center sm-center">
+                        <button type="button" class="btn btn-light btn-outline btn-rounded btn-sm m-r-10 modal-confirm" tag="Concordo">Agree</button>
+                    </div>
+                </div>
+            </div>
+        </div>        
+            
         <footer id="footer">
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-lg-2 col-md-4">
+                            <div class="widget  widget-contact-us">
+                                <ul class="list-icon">
+                                    <li><i class="icon-map-pin"></i>Rua Conde Dom Henrique, 1<br>&nbsp&nbspBraga, Portugal</li>
+                                    <li><i class="far fa-envelope"></i><a href="mailto:info@debarro.pt">info@debarro.pt</a></li>
+                                    <li><i class="icon-instagram"></i><a href="https://instagr.am/debarro.pt/" target="_blank" tag="Instagram">debarro.pt</a></li>
+                                    <li><i class="far fa-clock"></i>Monday to Friday: 10 AM - 5 PM</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 ">
+                            <a href="/en/professionals" tag="Profissionais">STORES & PROFESSIONALS</a>
+                            <br>
+                            <a href="/en/returns" tag="Trocas">RETURN POLICY</a>
+                        </div>
+    
+                        <div class="col-lg-4 col-md-4">
+                            <a href="/en/termsconditions" tag="Termos">TERMS & CONDITIONS</a>
+                            <br>
+                            <a href="/en/politics" tag="Políticas">POLITICS & COOKIES</a>         
+                            <br>
+                            <a target="_blank" tag="Reclamações" href="https://www.livroreclamacoes.pt/">COMPLAINS</a>
+                            <hr class="space">
+                            <img src="../images/pay.png">
+                        </div>
+                    </div>
+                </div>
+            </div>           
             <div class="copyright-content">
                 <div class="container">
-                    <div class="copyright-text text-center">Copyright <script>document.write(new Date().getFullYear())</script> &copy; DeBarro - Cerâmica, Lda. <br class="d-block d-md-none">All rights reserved.</div>
+                    <div class="copyright-text text-center">Copyright <script>document.write(new Date().getFullYear())</script> &copy; DeBarro Ceramics. <br class="d-block d-md-none">All rights reserved.</div>
                 </div>
             </div>
         </footer>
+
     </div>
     <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
     <script src="../js/jquery.js"></script>
     <script src="../js/plugins.js"></script>
     <script src="../js/functions.js"></script>
+    
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'ceramica-debarro.myshopify.com',
+      storefrontAccessToken: '444822423dec4646d8be601cc391de5f',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        },
+        "text-align": "left"
+      },
+      "title": {
+        "font-family": "Montserrat, sans-serif",
+        "font-size": "26px",
+        "color": "#4d4c4c"
+      },
+      "button": {
+        "font-family": "Montserrat, sans-serif",
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#000000"
+        },
+        "background-color": "#000000",
+        ":focus": {
+          "background-color": "#000000"
+        },
+        "padding-left": "28px",
+        "padding-right": "28px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "price": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "bold",
+        "font-size": "18px"
+      },
+      "compareAt": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "bold",
+        "font-size": "15.299999999999999px"
+      },
+      "unitPrice": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "bold",
+        "font-size": "15.299999999999999px"
+      },
+      "description": {
+        "font-family": "Montserrat, sans-serif"
+      }
+    },
+    "layout": "horizontal",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true,
+      "description": true
+    },
+    "width": "100%",
+    "text": {
+      "button": "Adicionar ao carrinho"
+    },
+    "googleFonts": [
+      "Montserrat"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-family": "Montserrat, sans-serif",
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#000000"
+        },
+        "background-color": "#000000",
+        ":focus": {
+          "background-color": "#000000"
+        },
+        "padding-left": "28px",
+        "padding-right": "28px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "title": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "bold",
+        "font-size": "26px",
+        "color": "#4c4c4c"
+      },
+      "price": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "18px",
+        "color": "#4c4c4c"
+      },
+      "compareAt": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "15.299999999999999px",
+        "color": "#4c4c4c"
+      },
+      "unitPrice": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "15.299999999999999px",
+        "color": "#4c4c4c"
+      },
+      "description": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "14px",
+        "color": "#4c4c4c"
+      }
+    },
+    "googleFonts": [
+      "Montserrat"
+    ],
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Montserrat, sans-serif"
+      },
+      "select": {
+        "font-family": "Montserrat, sans-serif"
+      }
+    },
+    "googleFonts": [
+      "Montserrat"
+    ]
+  },
+  "cart": {
+    "styles": {
+      "button": {
+        "font-family": "Montserrat, sans-serif",
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#000000"
+        },
+        "background-color": "#000000",
+        ":focus": {
+          "background-color": "#000000"
+        }
+      }
+    },
+    "text": {
+      "title": "Carrinho",
+      "total": "Total",
+      "empty": "O carrinho está vazio",
+      "notice": "",
+      "button": "Comprar"
+    },
+    "popup": false,
+    "googleFonts": [
+      "Montserrat"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Montserrat, sans-serif",
+        "background-color": "#b24d3a",
+        ":hover": {
+          "background-color": "#b24d3a"
+        },
+        ":focus": {
+          "background-color": "#b24d3a"
+        }
+      },
+      "count": {
+        "font-size": "16px"
+      }
+    },
+    "googleFonts": [
+      "Montserrat"
+    ]
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
 </body>
 </html>
