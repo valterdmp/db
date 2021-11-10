@@ -3883,7 +3883,7 @@ h6,
 .h5,
 .h6 {
   font-family: "Poppins", sans-serif;
-  color: #1f1f1f;
+  color: #FFFFFF; /*vp*/
   margin: 0;
   letter-spacing: 0.5px;
 }
