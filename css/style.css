@@ -17257,7 +17257,7 @@ a[data-toggle] {
   bottom: 0;
   color: #ffffff;
   left: 0;
-  padding: 20px;
+  padding: 5px; /*VP*/
   position: fixed;
   width: 100%;
   display: inline-block;
