@@ -390,15 +390,6 @@
       "Montserrat"
     ]
   },
-             events: {
-        afterInit: (cart) => {
-            cart.onCheckout = () => {
-                const checkoutUrl = cart.model.webUrl + '&' + theURLParamsForShopify;
-                // we dynamically change the checkout function.
-                cart.checkout.open(checkoutUrl);
-            };
-        },
-    }, 
   "toggle": {
     "styles": {
       "toggle": {
