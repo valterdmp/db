@@ -104,15 +104,24 @@
                     <div class="grid-item">
                         <img src="../images/products/boega31.jpg" class="img-fluid rounded">
                     </div>
-                    <div class="grid-item large-width">                        
+                    <div class="grid-item large-width d-none d-md-block">                        
                         <model-viewer 
-                        style="width: 70%; margin: auto; height: 300px;"
+                        style="width: 50%; margin: auto; height: 300px;"
                         src="2.glb" 
                         ar ar-modes="webxr scene-viewer quick-look" 
                         camera-controls
                         camera-orbit="-454.7deg 92.2deg auto" 
                         environment-image="neutral">
-                        <buttn slot="ar-button" id="ar-button">Ver no espaço</buttn>
+                        </model-viewer>
+                    </div>
+                    <div class="grid-item large-width d-block d-md-none">                        
+                        <model-viewer 
+                        style="width: 100%; margin: auto; height: 300px;"
+                        src="boega.glb" 
+                        ar ar-modes="webxr scene-viewer quick-look" 
+                        camera-controls
+                        camera-orbit="-454.7deg 92.2deg auto" 
+                        environment-image="neutral">
                         </model-viewer>
                     </div>
                 </div>
