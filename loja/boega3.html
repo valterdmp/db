@@ -104,24 +104,15 @@
                     <div class="grid-item">
                         <img src="../images/products/boega31.jpg" class="img-fluid rounded">
                     </div>
-                    <div class="grid-item large-width d-none d-md-block">                        
-                        <model-viewer
-                        camera-controls disable-zoom
-                        style="margin: auto; height: 500px;"
-                        src="2.glb"
-                        ar ar-modes="webxr scene-viewer quick-look" 
-                        camera-controls
-                        camera-orbit="-454.7deg 92.2deg auto" 
-                        environment-image="neutral">
-                        </model-viewer>
-                    </div>
                     <div class="grid-item large-width ">                        
                         <model-viewer 
-                        style="margin: auto; height: 500px;"
+                        style="margin: auto; height: 500px;"     
                         src="boega.glb" 
                         ar ar-modes="webxr scene-viewer quick-look" 
+                        shadow-intensity="1"
                         camera-controls
-                        camera-orbit="-454.7deg 92.2deg auto" 
+                        disable-zoom
+                        auto-rotate camera-orbit="-1313deg 71.63deg auto"
                         environment-image="neutral">
                         </model-viewer>
                     </div>
