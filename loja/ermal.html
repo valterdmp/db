@@ -82,7 +82,7 @@
             </div>
         
         
-        <div class="container p-l-100">
+        <div class="container p-l-50">
             <mark>er·mal |ê|<br>(ermo + -al)</mark><br>
             <small><mark>adjetivo de dois géneros</mark></small><br>
             <mark>1. Ilha do Ermal, situada em Vieira do Minho, Braga.<br>
@@ -103,18 +103,33 @@
                     <div class="grid-item">
                         <img src="../images/products/ermal02.jpg" class="img-fluid rounded">
                     </div>
+                    <div class="grid-item large-width ">                        
+                        <model-viewer 
+                        style="width: 100%; margin: auto; height: 450px;"     
+                        src="../3d/ermal.glb" 
+                        ar ar-modes="webxr scene-viewer quick-look" 
+                        shadow-intensity="1"
+                        camera-controls
+                        disable-zoom
+                        auto-rotate
+                        environment-image="neutral">
+                        </model-viewer>
+                    </div>
                 </div>
                 <div id='product-component-1632440330392'></div>
                 <hr class="space">
+                <div class="post-navigation">
+                    <a href="/loja" class="post"><i class="icon-chevron-left"></i> Voltar à Loja</a>
+                </div>
             </div>
         </section> <!-- end: Content -->
         
         <div id="cookieNotify" class="modal-strip cookie-notify background-transparent" data-delay="3000" data-expire="1" data-cookie-name="cookiebar2020_1" data-cookie-enabled="true">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 text-sm-center text-md-left sm-m-b-10 m-t-5">Este website utiliza cookies. <br class="d-block d-md-none"><a href="/politicas" class="text-light" tag="Mais informações">Mais informações</a>. <i class="icon-info"></i></div>
+                    <div class="col-lg-8 text-sm-center text-md-left sm-m-b-10 m-t-5">Este website utiliza <a href="/politicas" class="text-light" tag="Cookies">cookies</a>.</div>
                     <div class="col-lg-4 text-right sm-text-center sm-center">
-                        <button type="button" class="btn btn-light btn-outline btn-rounded btn-sm m-r-10 modal-confirm" tag="Concordo">Concordo</button>
+                        <a href class="text-light modal-confirm" tag="Concordo">Ok</a>
                     </div>
                 </div>
             </div>
@@ -159,13 +174,14 @@
         </footer>
     </div>
     <!-- end: Body Inner -->
-    <!-- Scroll top -->
-    <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
     <!--Plugins-->
     <script src="../js/jquery.js"></script>
     <script src="../js/plugins.js"></script>
     <!--Template functions-->
     <script src="../js/functions.js"></script>
+    <script type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+    </script>
     
 <script type="text/javascript">
 /*<![CDATA[*/
