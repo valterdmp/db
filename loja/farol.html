@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="description" content="Candeeiro Farol | Loja Online DeBarro">
     <link rel="icon" type="image/png" href="../images/favicon.png">
@@ -26,13 +26,18 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-T7J9L3J');</script>
     
+    <script src="../js/jquery.js"></script>
+    <script>$(document).ready(function(){
+    $('#header-pt').load("../load/header-pt.html");
+    $('#cookie-pt').load("../load/cookie-pt.html");
+    $('#footer-pt').load("../load/footer-pt.html");
+    });</script>
+    
 </head>
 <body>
 
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7J9L3J"
-                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    
-    <!-- Body Inner -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7J9L3J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
     <div class="body-inner">
         
          <div id="topbar" class="topbar-dark topbar-fullwidth dark">
@@ -42,7 +47,6 @@
                         <ul class="top-menu text-center">
                             <li><a data-lightbox="inline" tag="Entregas">Entrega GRÁTIS desde 50€</a></li>
                             <li><a>Recolha GRÁTIS em Braga</a></li>
-                            <!--li><a>xxx</a></li-->
                         </ul>
                     </div>
                 </div>
@@ -63,8 +67,7 @@
             </div>
         </div>
         
-        <!-- Header -->
-        <header id="header" data-transparent="true" data-fullwidth="false" data-responsive-fixed="true" data-sticky-active="400" >
+        <header id="header" data-responsive-fixed="true">
             <div class="header-inner" data-animate="fadeInDownBig">
                 <div class="container">
                     <div id="logo">
@@ -79,21 +82,13 @@
                     <div id="mainMenu">
                         <div class="container">
                             <nav>
-                                <ul>
-                                    <li><a href="/loja" tag="Loja">Loja</a></li>
-                                    <li><a href="/sobre" tag="Sobre">Sobre</a></li>
-                                    <li><a href="/contactos" tag="Contactos">Contactos</a></li>
-                                    <li><a href="https://instagr.am/debarro.pt/" target="_blank" tag="Instagram"><i class="icon-instagram"></i></a></li>
-                                    <li><a href="/en/store" tag="English"><i class="icon-globe" tag="English"></i><sup tag="English">EN</sup></a></li>
-                                </ul>
+                                <ul id="header-pt"></ul>
                             </nav>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
-        <!-- end: Header -->
-        <!-- Page title -->
 
         <div class="container text-center p-t-80">
             <div class="page-title">
@@ -110,15 +105,13 @@
             </div>
         </div>
         
-        <div class="container p-l-100">
+        <div class="container p-l-50">
             <mark>fa·rol</mark><br>
             <small><mark>nome masculino</mark></small><br>
             <mark>1. Ilha do Farol, situada em Olhão, Faro.
             <br>2. Construção em que há um foco luminoso para guia noturno dos navegantes.</mark>
         </div>
       
-        <!-- end: Page title -->
-        <!-- Content -->
         <section id="page-content" class="p-b-0">
             <div class="container">
                 <div class="grid-layout grid-2-columns p-b-50" data-item="grid-item" data-margin="30" data-lightbox="gallery">
@@ -138,66 +131,20 @@
                     </div>
                 <div id='product-component-1630342756143'></div>
                 <hr class="space">
+                <div class="post-navigation">
+                    <a href="/loja" class="post" tag="Voltar à Loja"><i class="icon-chevron-left"></i> Voltar à Loja</a>
+                </div>
             </div>
-        </section> <!-- end: Content -->
+        </section>
         
-        <div id="cookieNotify" class="modal-strip cookie-notify background-transparent" data-delay="3000" data-expire="1" data-cookie-name="cookiebar2020_1" data-cookie-enabled="true">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 text-sm-center text-md-left sm-m-b-10 m-t-5">Este website utiliza cookies. <br class="d-block d-md-none"><a href="/politicas" class="text-light" tag="Mais informações">Mais informações</a>. <i class="icon-info"></i></div>
-                    <div class="col-lg-4 text-right sm-text-center sm-center">
-                        <button type="button" class="btn btn-light btn-outline btn-rounded btn-sm m-r-10 modal-confirm" tag="Concordo">Concordo</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div id="cookieNotify" class="modal-strip cookie-notify background-transparent" data-delay="3000" data-expire="1" data-cookie-name="cookiebar" data-cookie-enabled="true">
+            <div class="container" id="cookie-pt"></div>
+        </div>        
+            
+        <div id="footer-pt"></div>
         
-        <footer id="footer">
-            <div class="footer-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-lg-2 col-md-4">
-                            <div class="widget  widget-contact-us">
-                                <ul class="list-icon">
-                                    <li><i class="icon-map-pin"></i>Rua dos Sapatelos, 54<br>&nbsp&nbspBraga, Portugal</li>
-                                    <li><i class="far fa-envelope"></i><a href="mailto:info@debarro.pt">info@debarro.pt</a></li>
-                                    <li><i class="icon-instagram"></i><a href="https://instagr.am/debarro.pt/" target="_blank" tag="Instagram">debarro.pt</a></li>
-                                    <li><i class="far fa-clock"></i>Segunda a Sexta: 10:00 - 17:00</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 ">
-                            <a href="/profissionais" tag="Profissionais">LOJAS & PROFISSIONAIS</a>
-                            <br>
-                            <a href="/trocasdevolucoes" tag="Trocas">TROCAS & DEVOLUÇÕES</a>
-                        </div>
-                        <div class="col-lg-4 col-md-4">
-                            <a href="/termosecondicoes" tag="Termos">TERMOS & CONDIÇÕES</a>
-                            <br>
-                            <a href="/politicas" tag="Políticas">POLÍTICAS & COOKIES</a>
-                            <br>
-                            <a target="_blank" tag="Reclamações" href="https://www.livroreclamacoes.pt/">LIVRO DE RECLAMAÇÕES</a>
-                            <hr class="space">
-                            <img src="../images/pay.png">
-                        </div>
-                    </div>
-                </div>
-            </div>           
-            <div class="copyright-content">
-                <div class="container">
-                    <div class="copyright-text text-center">Copyright <script>document.write(new Date().getFullYear())</script> &copy; Cerâmica DeBarro. <br class="d-block d-md-none">Todos os direitos reservados.</div>
-                </div>
-            </div>
-        </footer>
-    </div>
-    <!-- end: Body Inner -->
-    <!-- Scroll top -->
-    <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
-    <!--Plugins-->
-    <script src="../js/jquery.js"></script>
-    <script src="../js/plugins.js"></script>
-    <!--Template functions-->
-    <script src="../js/functions.js"></script>
+        <script src="../js/plugins.js"></script>
+        <script src="../js/functions.js"></script>
     
 <script type="text/javascript">
 /*<![CDATA[*/
