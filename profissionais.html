@@ -24,15 +24,22 @@
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-T7J9L3J');</script>
+    
+    <script src="js/jquery.js"></script>
+    <script>$(document).ready(function(){
+    $('#header-pt').load("load/header-pt.html");
+    $('#cookie-pt').load("load/cookie-pt.html");
+    $('#footer-pt').load("load/footer-pt.html");
+    });</script>
 
 </head>
 <body>
     
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7J9L3J"
-                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7J9L3J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
     <div class="body-inner">
-        <header id="header" data-transparent="true" data-fullwidth="false" data-responsive-fixed="true" data-sticky-active="400" class="dark submenu-light">
+        
+        <header id="header" class="dark submenu-light" data-transparent="true" data-responsive-fixed="true">
             <div class="header-inner" data-animate="fadeInDownBig">
                 <div class="container">
                     <div id="logo">
@@ -47,23 +54,14 @@
                     <div id="mainMenu">
                         <div class="container">
                             <nav>
-                                <ul>
-                                    <li><a href="loja" tag="Loja" >Loja</a></li>
-                                    <li><a href="sobre" tag="Sobre">Sobre</a></li>
-                                    <li><a href="contactos" tag="Contactos" >Contactos</a></li>
-                                    <li><a href="/profissionais" tag="menu-profissionais">Profissionais</a></li>
-                                    <li><a href="https://instagr.am/debarro.pt/" target="_blank" tag="Instagram"><i class="icon-instagram"></i></a></li>
-                                    <li><a href="/en/professionals" tag="English"><i tag="English" class="icon-globe"></i><sup tag="English">EN</sup></a></li>
-                                </ul>
+                                <ul id="header-pt"></ul>
                             </nav>
                         </div>
                     </div>
-                    <!--end: Navigation-->
                 </div>
             </div>
         </header>
-        <!-- end: Header -->
-        <!-- Page title -->
+
         <section id="page-title" data-bg-parallax="images/pro.jpg">
             <div class="container">
                 <div class="page-title">
@@ -71,7 +69,7 @@
                 </div>
             </div>
         </section>
-        <!-- end: Page title -->
+
         <section>
             <div class="container">
                 <div>
@@ -83,62 +81,16 @@
             </div>
         </section>
 
-        <div id="cookieNotify" class="modal-strip cookie-notify background-transparent" data-delay="3000" data-expire="1" data-cookie-name="cookiebar2020_1" data-cookie-enabled="true">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 text-sm-center text-md-left sm-m-b-10 m-t-5">Este website utiliza <a href="/politicas" class="text-light" tag="Cookies">cookies</a>.</div>
-                    <div class="col-lg-4 text-right sm-text-center sm-center">
-                        <a href class="text-light modal-confirm" tag="Concordo">Ok</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <footer id="footer">
-            <div class="footer-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-lg-2 col-md-4">
-                            <div class="widget  widget-contact-us">
-                                <ul class="list-icon">
-                                    <li><i class="icon-map-pin"></i>Rua dos Sapatelos, 54<br>&nbsp&nbspBraga, Portugal</li>
-                                    <li><i class="far fa-envelope"></i><a href="mailto:info@debarro.pt">info@debarro.pt</a></li>
-                                    <li><i class="icon-instagram"></i><a href="https://instagr.am/debarro.pt/" target="_blank" tag="Instagram">debarro.pt</a></li>
-                                    <li><i class="far fa-clock"></i>Segunda a Sexta: 10:00 - 17:00</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 ">
-                            <a href="profissionais" tag="Profissionais">LOJAS & PROFISSIONAIS</a>
-                            <br>
-                            <a href="trocasdevolucoes" tag="Trocas">TROCAS & DEVOLUÇÕES</a>
-                            
-                        </div>
-    
-                        <div class="col-lg-4 col-md-4">
-                            <a href="termosecondicoes" tag="Termos">TERMOS & CONDIÇÕES</a>
-                            <br>
-                            <a href="politicas" tag="Políticas">POLÍTICAS & COOKIES</a>
-                            <br>
-                            <a target="_blank" tag="Reclamações" href="https://www.livroreclamacoes.pt/">LIVRO DE RECLAMAÇÕES</a>
-                            <hr class="space">
-                            <p>Pagamentos Seguros:</p>
-                            <img src="images/pay.png">
-                        </div>
-                    </div>
-                </div>
-            </div>           
-            <div class="copyright-content">
-                <div class="container">
-                    <div class="copyright-text text-center">Copyright <script>document.write(new Date().getFullYear())</script> &copy; Cerâmica DeBarro. <br class="d-block d-md-none">Todos os direitos reservados.</div>
-                </div>
-            </div>
-        </footer>
-    </div> <!-- end: Body Inner -->
-    <!--Plugins-->
-    <script src="js/jquery.js"></script>
-    <script src="js/plugins.js"></script>
-    <!--Template functions-->
-    <script src="js/functions.js"></script>
-</body>
+        <div id="cookieNotify" class="modal-strip cookie-notify background-transparent" data-delay="3000" data-expire="1" data-cookie-name="cookiebar" data-cookie-enabled="true">
+            <div class="container" id="cookie-pt"></div>
+        </div>        
+            
+        <div id="footer-pt"></div>
+        
+    </div>
 
+    <script src="js/plugins.js"></script>
+    <script src="js/functions.js"></script>
+
+    </body>
 </html>
