@@ -29,7 +29,7 @@
     <script src="../js/jquery.js"></script>
     <script>$(document).ready(function(){
     $('#header-pt').load("../load/header-pt.html");
-    $('#cookie-pt').load("../load/cookie-pt.html");
+    $('#modal-pt').load("../load/modal-pt.html");
     $('#footer-pt').load("../load/footer-pt.html");
     });</script>
     
@@ -106,9 +106,18 @@
             </div>
         </section>
         
-        <div id="cookieNotify" class="modal-strip cookie-notify background-transparent" data-delay="3000" data-expire="1" data-cookie-name="cookiebar" data-cookie-enabled="true">
-            <div class="container" id="cookie-pt"></div>
-        </div>        
+        <div id="cookieNotify" class="modal-strip cookie-notify background-light modal-active" data-expire="1" data-cookie-name="cookiebar" data-cookie-enabled="true">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 text-sm-center text-md-left text-dark sm-m-b-10 m-t-5">Este website utiliza <a href="/politicas" tag="Cookies">cookies</a>.</div>
+                    <div class="col-lg-4 text-right sm-text-center text-dark sm-center">
+                        <a href class="modal-confirm" tag="Concordo">Ok</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="modal-pt"></div>        
             
         <div id="footer-pt"></div>
         
