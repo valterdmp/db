@@ -100,6 +100,18 @@
                     <div class="grid-item">
                         <img src="../images/products/bugio31.jpg" class="img-fluid rounded">
                     </div>
+                    <div class="grid-item large-width">                        
+                        <model-viewer 
+                        style="width: 100%; margin: auto; height: 500px;"     
+                        src="../3d/bugio.glb" 
+                        ar ar-modes="webxr scene-viewer quick-look" 
+                        shadow-intensity="1"
+                        camera-controls
+                        disable-zoom
+                        auto-rotate camera-orbit="-1313deg 71.63deg auto"
+                        environment-image="neutral">
+                        </model-viewer>
+                    </div>
                 </div>
                 <div id='product-component-1626826086529'></div>
                 <hr class="space">
@@ -126,6 +138,7 @@
         
         <script src="../js/plugins.js"></script>
         <script src="../js/functions.js"></script>
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     
 <script type="text/javascript">
 /*<![CDATA[*/
