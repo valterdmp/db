@@ -616,7 +616,7 @@ section.dark,
   .grid-2-columns .grid-item,
   .post-2-columns .post-item,
   .portfolio-2-columns .portfolio-item {
-    width: 50%;
+    width: 100%;
   }
   .grid-6-columns .grid-item.large-width,
   .post-6-columns .post-item.large-width,
